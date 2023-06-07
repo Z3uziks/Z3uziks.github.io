@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Exemplos de Voos</title>
-    <link rel="stylesheet" href="assets/css/voo.css"></head>
-     <!--=============== ChatBot ===============-->
-     <link rel="stylesheet" href="ChatBot/static/css/chat.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/voo.css">
 </head>
-<body style="background-image: url(assets/img/voo.jpg);">
+<!--=============== ChatBot ===============-->
+<link rel="stylesheet" href="ChatBot/static/css/chat.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body {
+        background-image: url(assets/img/voo.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 110%;
+    }
+</style>
+</head>
+
+<body>
 
     <div class="navbar">
         <ul>
@@ -18,7 +28,7 @@
             <a href="login.html">Log out</a>
         </div>
     </div>
-    
+
     <h3>Com base nos seus critérios temos disponíveis os seguintes voos:</h3>
     <div class="container">
         <div class="flight">
@@ -38,11 +48,11 @@
                 </div>
                 <div class="item">
                     <p class="label">Chegada</p>
-                    <p class="value">12:00</p>
+                    <p class="value">22:00</p>
                 </div>
                 <div class="item">
                     <p class="label">Duração</p>
-                    <p class="value">2 horas</p>
+                    <p class="value">12 horas</p>
                 </div>
                 <div class="item">
                     <p class="label">Companhia:</p>
@@ -51,7 +61,7 @@
             </div>
             <button onclick="location.href='hotel2.html'" class="reserve-button">Reservar</button>
         </div>
-        
+
         <div class="flight">
             <div class="title">Voo 2</div>
             <div class="details">
@@ -69,11 +79,11 @@
                 </div>
                 <div class="item">
                     <p class="label">Chegada</p>
-                    <p class="value">16:00</p>
+                    <p class="value">03:00</p>
                 </div>
                 <div class="item">
                     <p class="label">Duração</p>
-                    <p class="value">2 horas</p>
+                    <p class="value">13 horas</p>
                 </div>
                 <div class="item">
                     <p class="label">Companhia:</p>
@@ -99,11 +109,11 @@
                 </div>
                 <div class="item">
                     <p class="label">Chegada</p>
-                    <p class="value">21:30</p>
+                    <p class="value">08:30</p>
                 </div>
                 <div class="item">
                     <p class="label">Duração</p>
-                    <p class="value">3 horas</p>
+                    <p class="value">14 horas</p>
                 </div>
                 <div class="item">
                     <p class="label">Companhia:</p>
@@ -158,7 +168,8 @@
         </div>
     </div>
 </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="ChatBot/static/scripts/responses.js"></script>
-    <script src="ChatBot/static/scripts/chat.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="ChatBot/static/scripts/responses.js"></script>
+<script src="ChatBot/static/scripts/chat.js"></script>
+
 </html>
